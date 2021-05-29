@@ -9,7 +9,12 @@
 1. Git clone this repository or download the files as .zip
 2. (For zip files) Extract the files
 3. Open Android Studio (or IntelliJ) and click "Open"
-4. Choose the folder of the app 
+4. Choose the folder of the app
+5. Connect your Android phone to the computer and make sure to enable USB debugging
+6. Click run and choose the connected phone to run the app
+7. App should install and automatically open on the phone
+
+Another option : Download the .apk file from your phone and click open and it will automatically install the app.
 
 ## Features
 ### 1. Password lock to protect your data
