@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">aiverse_application</string>
+    <string name="wrong_passcode">Wrong Passcode!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_new_folder">Create New Folder</string>
+    <string name="create_album">CREATE</string>
+    <string name="enter_album_name_here">Enter Album Name Here</string>
+    <string name="please_input_your_passcode">Please Input Your Passcode</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="change_password">Change Password</string>
+    <string name="no_images_here">No Images Here</string>
+    <string name="enter_old_password_here">Enter old password here</string>
+    <string name="enter_new_password_here">Enter new password here</string>
+    <string name="re_enter_new_password_here">Re-enter new password here</string>
+    <string name="confirm">CONFIRM</string>
+</resources>

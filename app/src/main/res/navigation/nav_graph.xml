@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/loginFragment">
+
+    <fragment android:id="@+id/loginFragment" android:name="com.mycompany.aiverse_application.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_albumsFragment" app:destination="@id/albumsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/imagesFragment" android:name="com.mycompany.aiverse_application.ImagesFragment"
+              android:label="fragment_images" tools:layout="@layout/fragment_images">
+        <action android:id="@+id/action_imagesFragment_to_imageFragment" app:destination="@id/imageFragment"/>
+        <argument android:name="folder_name" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/imageFragment" android:name="com.mycompany.aiverse_application.ImageFragment"
+              android:label="fragment_image" tools:layout="@layout/fragment_image">
+        <argument android:name="image" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/albumsFragment" android:name="com.mycompany.aiverse_application.AlbumsFragment"
+              android:label="fragment_albums" tools:layout="@layout/fragment_albums">
+        <action android:id="@+id/action_albumsFragment_to_imagesFragment" app:destination="@id/imagesFragment"/>
+    </fragment>
+</navigation>
