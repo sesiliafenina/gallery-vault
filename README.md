@@ -14,7 +14,7 @@
 ## Features
 ### 1. Password lock to protect your data
 
-![img](https://github.com/sesiliafenina/gallery-vault/blob/images/change_password.JPG)
+![img](https://github.com/sesiliafenina/gallery-vault/blob/images/passcode.JPG)
 
 ### 2. Create Folders
 
