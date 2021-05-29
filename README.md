@@ -24,6 +24,8 @@
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/add_images_videos.JPG)
 
+Note : For Samsung Gallery I don't think it supports multiple images/videos so for now if the user choose Samsung Gallery as the source, the user can only pick 1 image.
+
 ### 4. Change the password
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/change_password.JPG)
