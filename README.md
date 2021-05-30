@@ -17,29 +17,40 @@
 Another option : Download the .apk file [here](https://drive.google.com/file/d/1z9ngzo1V7S6Kw4KIbpqN4nq4uWxyiMlF/view?usp=sharing) from your phone and click open and it will automatically install the app.
 
 ## Features
-### 1. Password lock to protect your data
+### 1. Calculator front
+
+![img](https://github.com/sesiliafenina/gallery-vault/blob/images/calculator.JPG)
+
+Note : To enter the app, press "1234" and then "="
+
+### 2. Password lock to protect your data
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/passcode.JPG)
 
-### 2. Create Folders
+Note : Default password is "1234" and users are encouraged to immediately change the password.
+
+### 3. Stored password is hashed
+See LoginFragment and AlbumsFragment for implementation
+
+### 4. Create Folders
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/create_album.JPG)
 
-### 3. Add multiple Images and Videos
+### 5. Add multiple Images and Videos
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/add_images_videos.JPG)
 
 Note : For Samsung Gallery I don't think it supports multiple images/videos so for now if the user choose Samsung Gallery as the source, the user can only pick 1 image.
 
-### 4. Change the password
+### 6. Change the password
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/change_password.JPG)
 
-### 5. Preview Images and Videos
+### 7. Preview Images and Videos
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/preview_videos.JPG)
 
-### 6. Take the perpetrator's picture using front camera after 3 failed tries
+### 8. Take the perpetrator's picture using front camera after 3 failed tries
 
 ![img](https://github.com/sesiliafenina/gallery-vault/blob/images/front_capture.JPG)
 
