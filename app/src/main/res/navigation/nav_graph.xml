@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
-            app:startDestination="@id/loginFragment">
+            app:startDestination="@id/calculatorFragment">
 
     <fragment android:id="@+id/loginFragment" android:name="com.mycompany.aiverse_application.LoginFragment"
               android:label="fragment_login" tools:layout="@layout/fragment_login">
@@ -20,5 +20,9 @@
     <fragment android:id="@+id/albumsFragment" android:name="com.mycompany.aiverse_application.AlbumsFragment"
               android:label="fragment_albums" tools:layout="@layout/fragment_albums">
         <action android:id="@+id/action_albumsFragment_to_imagesFragment" app:destination="@id/imagesFragment"/>
+    </fragment>
+    <fragment android:id="@+id/calculatorFragment" android:name="com.mycompany.aiverse_application.CalculatorFragment"
+              android:label="fragment_calculator" tools:layout="@layout/fragment_calculator">
+        <action android:id="@+id/action_calculatorFragment_to_loginFragment" app:destination="@id/loginFragment"/>
     </fragment>
 </navigation>
