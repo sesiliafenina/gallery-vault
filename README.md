@@ -14,7 +14,7 @@
 6. Click run and choose the connected phone to run the app
 7. App should install and automatically open on the phone
 
-Another option : Download the .apk file [here](https://drive.google.com/file/d/1z9ngzo1V7S6Kw4KIbpqN4nq4uWxyiMlF/view?usp=sharing) from your phone and click open and it will automatically install the app.
+Another option : Download the .apk file [here](https://drive.google.com/file/d/1a9foKaoBaCNEp0vPTsDoVtGT2BaaoF83/view?usp=sharing) from your phone and click open and it will automatically install the app.
 
 ## Features
 ### 1. Calculator front
